@@ -31,6 +31,11 @@ let posts = [
     },
 ];
 
+// Correct root route to redirect to /posts
+app.get("/", (req, res) => {
+    res.redirect("/posts");
+});
+
 // Route to display all posts
 app.get("/posts", (req, res) => {
     res.render("index.ejs", { posts });
