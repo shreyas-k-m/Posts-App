@@ -1,6 +1,3 @@
-Here's a template for your project's `README.md` file, which you can customize to fit your project more specifically. It follows a typical structure for GitHub repositories:
-
----
 
 # Posts App
 
